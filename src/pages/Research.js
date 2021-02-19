@@ -17,10 +17,10 @@ const Research=()=> {
                   work or study remotely. 
                 </p>
             </div>
-            <Carousel pause="hover">
+            <Carousel pause="hover" className="carousel">
               <Carousel.Item interval={1000}>
                 <img
-                  className="d-block w-100"
+                  className="d-block w-75"
                   src={screenHourImg}
                   alt="First slide"
                 />
@@ -31,7 +31,7 @@ const Research=()=> {
               </Carousel.Item>
               <Carousel.Item interval={500}>
                 <img
-                  className="d-block w-100"
+                  className="d-block w-75"
                   src={covid_impactImg}
                   alt="Second slide"
                 />
@@ -42,7 +42,7 @@ const Research=()=> {
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className="d-block w-100"
+                  className="d-block w-75"
                   src={tooOftenUsedImg}
                   alt="Third slide"
                 />
