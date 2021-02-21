@@ -9,6 +9,11 @@ import mostly_used_devicesImg from '../resources/graphs/mostly_used_devices.PNG'
 import often_appImg from '../resources/graphs/often_app.PNG'
 import reminder_responseImg from '../resources/graphs/reminder_response.PNG'
 import rewardImg from '../resources/graphs/reward.PNG'
+import grandma from '../resources/persona/grandma_personna.PNG'
+import john_doe from '../resources/persona/john_doe_personna.PNG'
+import son_tung from '../resources/persona/son_tung_personna.PNG'
+import user_flow from '../resources/user_flow.PNG'
+import user_journey from '../resources/user_journey.PNG'
 
 
 const Research=()=> {
@@ -44,7 +49,7 @@ const Research=()=> {
                   networks or streaming Apps (such as Youtube). (Apps used too often)
                   </p>
               </div>
-              <Carousel>
+              <Carousel className="carousel_1">
                 <Carousel.Item>
                   <img
                     className="d-block w-75"
@@ -59,13 +64,7 @@ const Research=()=> {
                     alt="Second slide"
                   />
                 </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    className="d-block w-75"
-                    src={tooOftenUsedImg}
-                    alt="Third slide"
-                  />
-                </Carousel.Item>
+                
                 <Carousel.Item>
                   <img
                     className="d-block w-75"
@@ -116,33 +115,115 @@ const Research=()=> {
                   <thead>
                     <tr>
                       <th>App's name</th>
-                      {Array.from({ length: 12 }).map((_, index) => (
-                        <th key={index}></th>
-                      ))}
+                      <th>Idea</th>
+                      <th>Things to learn</th>
+                      <th>Things to improve</th>
                     </tr>
                   </thead>
                   <tbody>
-                    <tr>
-                      <td>1</td>
-                      {Array.from({ length: 12 }).map((_, index) => (
-                        <td key={index}>Table cell {index}</td>
-                      ))}
-                    </tr>
-                    <tr>
-                      <td>2</td>
-                      {Array.from({ length: 12 }).map((_, index) => (
-                        <td key={index}>Table cell {index}</td>
-                      ))}
-                    </tr>
-                    <tr>
-                      <td>3</td>
-                      {Array.from({ length: 12 }).map((_, index) => (
-                        <td key={index}>Table cell {index}</td>
-                      ))}
-                    </tr>
+                      <tr>
+                        <td>Fabulous</td>
+                        <td>An app helps the users build good habits by applying science result on psychology</td>
+                        <td>
+                          <ol>
+                            <li>Reward users for their achievement</li>
+                            <li>A network of users who is also doing the challenge</li>
+                          </ol>
+                        </td>
+                        <td>
+                          <ol>
+                            <li>Real reward since Fabulous only offers 50% discount on the membership.</li>
+                            <li>No free version</li>
+                          </ol>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Facebook</td>
+                        <td>Social network for keeping contact</td>
+                        <td>
+                        People like to get update from their friends
+                        </td>
+                        <td>
+                        If information is not oriented and become too diverse, users will be addictive
+                        </td>
+                      </tr>
                   </tbody>
                 </Table>
+                <h2>3. Design decision</h2>
+                <p>
+                To encourage people to use the app, we will need a social network. 
+                But, its content must only be related to health (such as LinkedIn only targets Jobs and Professionalism).
+                Thus, we can limit the problem with newsfeed addiction. 
+                </p>
+                <p>
+                To motivate people to maintain their good habits, we will reward them with some real deals such as gift cards or cash.
+                Also, the users will be rewarded more based on their effort in practicing.
+                </p>
+                <h2>4. Our solution</h2>
+                <p>
+                Our reward system focuses on two factors: physical reward 
+                (a currency called H-coins and a level system for the accounts) and mental reward 
+                (a social network with the same healthy goals). When the users pass a challenge, 
+                they will be rewarded with H-coin and XP. H-coin can be exchanged for gifts, gift codes, or cash. 
+                XP can be accumulated to level up an account, the higher level will grant access to more benefits. 
+                </p>
+                <p>
+                As a super app, our app will extend to many industries and services to make it 
+                a vital everyday app for the users. By giving challenges, desirable rewards, and 
+                an encouraging network, we hope our super app will bring not only a healthier 
+                screen habit but also better well-being. 
+                </p>
               </div>
+              <h2>III. Analysis</h2>
+              <div  className="text-container">
+                    <p>
+                    Armed with the information provided by the research phase, 
+                  we were then able to move on to the analysis phase of this design process. 
+                  This phase will help us understand why the users would need to use a personal data marketplace.
+                    </p>
+                  <h2>User Personas</h2>
+                  <p>Based on the result from our survey, we made 3 archetypes of users for our applications </p> 
+                  <Carousel>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={grandma}
+                    alt="First slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={son_tung}
+                    alt="First slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-125"
+                    src={john_doe}
+                    alt="First slide"
+                  />
+                </Carousel.Item>
+                </Carousel>
+                <br></br>
+                  <h2>User's Journey</h2>
+                  <p>We chose Son Beach to create a user journey since he represents for 60% our participants </p> 
+                  <img
+                    className=""
+                    src={user_flow}
+                    alt="Son Beach's user flow"
+                  />
+                  <br/><br/>
+                   <h2>User's Flowchart</h2>
+                  <p>An idea of how our product will work</p> 
+                  <img
+                    className=""
+                    src={user_journey}
+                    alt="Son Beach's user flow"
+                  />
+                </div>
+                
           </div>
         )
 }
