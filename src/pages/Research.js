@@ -14,14 +14,14 @@ import john_doe from '../resources/persona/john_doe_personna.PNG'
 import son_tung from '../resources/persona/son_tung_personna.PNG'
 import user_flow from '../resources/user_flow.PNG'
 import user_journey from '../resources/user_journey.PNG'
-
+import file from "../resources/user_report.xlsx"
 
 const Research=()=> {
         return (
             <div className="page_2" id="research">
               <div className="d-flex">
               <h1 className="pr-3">II. Research </h1>
-              <a href="/resources/user_journey.PNG" download>
+              <a href={file} download>
               <Button>Get the survey result</Button>
               </a>
               </div>
