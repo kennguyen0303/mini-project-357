@@ -13,7 +13,7 @@ import rewardImg from '../resources/graphs/reward.PNG'
 
 const Research=()=> {
         return (
-            <div className="a_page" id="research">
+            <div className="page_2" id="research">
               <h1>II. Research </h1>
               <div  className="text-container">
                   <h2>1. Survey</h2>
