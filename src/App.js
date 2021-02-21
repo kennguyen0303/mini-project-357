@@ -6,6 +6,7 @@ import Landing_page from './pages/Landing_page'
 import Problem_description from './pages/Problem_description'
 import Research from './pages/Research'
 import Design from './pages/Design';
+import Conclusion from './pages/Conclusion';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <Problem_description/>
             <Research/>
             <Design/>
+            <Conclusion/>
         </div>
       </div>
       
