@@ -54,7 +54,7 @@ const Research=()=> {
                   networks or streaming Apps (such as Youtube). (Apps used too often)
                   </p>
               </div>
-              <Carousel className="carousel_1">
+              <Carousel pause="hover" className="carousel_1">
                 <Carousel.Item>
                   <img
                     className="d-block w-75"
@@ -112,7 +112,7 @@ const Research=()=> {
                     alt="Third slide"
                   />
                 </Carousel.Item>
-              </Carousel>
+              </Carousel >
               <br/>
               <div  className="text-container">
                   <h2>2. Research on related Apps</h2>
@@ -190,7 +190,7 @@ const Research=()=> {
                   <p>Based on the result from our survey, we made 3 archetypes of users: <strong>the nerd</strong> (young people with decent
                     technology skills), <strong>the workaholic</strong> (middle age people who works mostly on their computer)
                     and <strong>the tech-novice</strong> (the users with very limited tech skills ) </p> 
-                  <Carousel>
+                  <Carousel pause="hover">
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
