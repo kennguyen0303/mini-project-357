@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Carousel,Table } from 'react-bootstrap';
+import {Carousel,Table, Button } from 'react-bootstrap';
 import screenHourImg from '../resources/graphs/screen_hour.PNG'
 import covid_impactImg from '../resources/graphs/covid_impact.PNG'
 import tooOftenUsedImg from '../resources/graphs/too_often_used.PNG'
@@ -19,10 +19,15 @@ import user_journey from '../resources/user_journey.PNG'
 const Research=()=> {
         return (
             <div className="page_2" id="research">
-              <h1>II. Research </h1>
+              <div className="d-flex">
+              <h1 className="pr-3">II. Research </h1>
+              <a href="/resources/user_journey.PNG" download>
+              <Button>Get the survey result</Button>
+              </a>
+              </div>
               <div  className="text-container">
                   <h2>1. Survey</h2>
-                  <h4>A. Method</h4>
+                  <h4 className="p-3">A. Method</h4>
                   <p>
                   In order to collect the information regarding the users’ 
                   screen habit, we have run a survey on Google Form and shared 
@@ -32,7 +37,7 @@ const Research=()=> {
                   Based on these answers, our hypothesis was confirmed and 
                   the needs of the users were established. 
                   </p>
-                  <h4>B. Our analysis</h4>
+                  <h4 className="p-3">B. Our analysis</h4>
                   <p>
                   1. Most of the participants were students and workers who must 
                   switch to study and work remotely. Thus, they found Covid-19 

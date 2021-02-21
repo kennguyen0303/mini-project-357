@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 const Problem_description=()=> {
         return (
-            <div className="a_page page_1" id="problem">
+            <div className="a_page page_3" id="problem">
             <h1>I. Problem Description</h1>
               <div className="text-container">
                   <p>Covid-19 has brought the sedentary lifestyle to another level. 
