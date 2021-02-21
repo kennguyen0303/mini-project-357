@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/mini-project-357/static/css/main.d866b36c.chunk.css",
-    "main.js": "/mini-project-357/static/js/main.c5c540f7.chunk.js",
-    "main.js.map": "/mini-project-357/static/js/main.c5c540f7.chunk.js.map",
-    "runtime-main.js": "/mini-project-357/static/js/runtime-main.70e74ffb.js",
-    "runtime-main.js.map": "/mini-project-357/static/js/runtime-main.70e74ffb.js.map",
+    "main.js": "/mini-project-357/static/js/main.2e017c61.chunk.js",
+    "main.js.map": "/mini-project-357/static/js/main.2e017c61.chunk.js.map",
+    "runtime-main.js": "/mini-project-357/static/js/runtime-main.eb924c7a.js",
+    "runtime-main.js.map": "/mini-project-357/static/js/runtime-main.eb924c7a.js.map",
     "static/css/2.150d169a.chunk.css": "/mini-project-357/static/css/2.150d169a.chunk.css",
-    "static/js/2.e6932a09.chunk.js": "/mini-project-357/static/js/2.e6932a09.chunk.js",
-    "static/js/2.e6932a09.chunk.js.map": "/mini-project-357/static/js/2.e6932a09.chunk.js.map",
-    "static/js/3.ce31337d.chunk.js": "/mini-project-357/static/js/3.ce31337d.chunk.js",
-    "static/js/3.ce31337d.chunk.js.map": "/mini-project-357/static/js/3.ce31337d.chunk.js.map",
+    "static/js/2.bfecb620.chunk.js": "/mini-project-357/static/js/2.bfecb620.chunk.js",
+    "static/js/2.bfecb620.chunk.js.map": "/mini-project-357/static/js/2.bfecb620.chunk.js.map",
+    "static/js/3.6ce3331d.chunk.js": "/mini-project-357/static/js/3.6ce3331d.chunk.js",
+    "static/js/3.6ce3331d.chunk.js.map": "/mini-project-357/static/js/3.6ce3331d.chunk.js.map",
     "index.html": "/mini-project-357/index.html",
     "static/css/2.150d169a.chunk.css.map": "/mini-project-357/static/css/2.150d169a.chunk.css.map",
     "static/css/main.d866b36c.chunk.css.map": "/mini-project-357/static/css/main.d866b36c.chunk.css.map",
-    "static/js/2.e6932a09.chunk.js.LICENSE.txt": "/mini-project-357/static/js/2.e6932a09.chunk.js.LICENSE.txt",
+    "static/js/2.bfecb620.chunk.js.LICENSE.txt": "/mini-project-357/static/js/2.bfecb620.chunk.js.LICENSE.txt",
     "static/media/Begin.5e8c21fb.png": "/mini-project-357/static/media/Begin.5e8c21fb.png",
     "static/media/CreateHabit-1.20dbe858.png": "/mini-project-357/static/media/CreateHabit-1.20dbe858.png",
     "static/media/CreateHabit.1784584e.png": "/mini-project-357/static/media/CreateHabit.1784584e.png",
@@ -47,10 +47,10 @@
     "static/media/wireframe.571b7901.PNG": "/mini-project-357/static/media/wireframe.571b7901.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.70e74ffb.js",
+    "static/js/runtime-main.eb924c7a.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.e6932a09.chunk.js",
+    "static/js/2.bfecb620.chunk.js",
     "static/css/main.d866b36c.chunk.css",
-    "static/js/main.c5c540f7.chunk.js"
+    "static/js/main.2e017c61.chunk.js"
   ]
 }
