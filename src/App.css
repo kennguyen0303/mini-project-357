@@ -40,6 +40,13 @@
 .a_page{
   width:100%;
   height:100vh;
+  padding-right:10%;
+  padding-left:10%;
+  padding-top:1%;
+  padding-bottom:1%;
+  background-color:white;
+  opacity: 1;
+  color:black;
 }
 
 .a_page > h1{
@@ -49,12 +56,11 @@
 
 @media screen and (max-width: 480px) {
   .text-container {
-    font-family: 'Times New Roman', Times, serif;
-    padding: 0rem;
-    padding-left: 0rem;
-    min-height: 100px;
-    max-height: 50vh;
-    overflow:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    padding:1vh;
+    max-height: 100%;
+    /* overflow:auto; */
   }
 
   .team-name{
@@ -69,17 +75,16 @@
 
 @media screen and (min-width: 481px) {
   .text-container {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     padding:1vh;
-    max-height: 90vh;
-    overflow: auto;
+    max-height: 100%;
   }
 
   .text-container > p{
     width: 100%;
-    padding:3rem;
-    font-size: large;
+    padding:2rem;
+    font-size: x-large;
   }
 
   .team-name{
@@ -97,26 +102,28 @@
   }
 
   .carousel{
-    margin-left:20%;
-    padding-bottom: 10%;
+    padding-bottom: 100px;
+  }
+
+  .carousel-inner{
+    padding-left:15%;
+    padding-right:5%;
+  }
+
+  .carousel-caption{
+    display:inline-block;
+    padding-left:25%;
+    width:95%;
+    height:100%;
+    overflow:auto;
   }
 }
 
 
 
 
-.page_1{
-  background-color: aliceblue;
-}
 
-.page_2{
-  background-color: rgba(10, 10, 10, 0.034);
-  opacity: 0.5;
-}
-
-
-
-.carousel-control-next-icon:after
+.carousel-control-next:after
 {
   content: '>';
   font-size: 55px;
@@ -124,9 +131,14 @@
   padding-right:40%;
 }
 
-.carousel-control-prev-icon:after {
+.carousel-control-prev:after {
   content: '<';
   font-size: 55px;
   color: black;
 }
+
+.carousel-indicators {
+  background-color: black;
+}
+
 
