@@ -15,30 +15,32 @@ import Sleep from '../resources/design/Sleep.png'
 import Community from '../resources/design/OptiCommunity.png'
 import Profile from '../resources/design/Posts.png'
 import Prototype from '../resources/prototype/prototype.mp4'
+
 const Design=()=> {
     return (
-        <div className="a_page" id="">
+        <div className="a_page page_3" id="design">
             <div  className="text-container">
-                <h1>III. Design </h1>
+                <h1>IV. Design </h1>
                 <h2>1. Sketch</h2>
                     <p>
                     Based on user flow, we start sketching the design of the app to know how user 
                     will interact with the mobile. 
                     </p>
-                    <img src={sketch1}/>
+                    <img src={sketch1} height="" width="75%"/>
                     <br></br>
-                    <img src={sketch2}/>
+                    <img src={sketch2} width="75%"/>
                 <h2>3. Wireframe</h2>
                     <p>
                     After we finish sketching, we start making wireframe to know what are the
                     necessary components 
                     </p>
-                    <img src={wireframe}/>
+                    <img src={wireframe} />
                 <h2>2. Color Palette</h2>
                     <p>
                     Before we jump into final design, we have to decide what are the main color themes for our application.We chose Black, Pink and White as the color for our mock-ups design since those colors bring our user a positive healthy vibe.
                     </p>
                     <img src={color}/>
+                    
                 <h2>3. Font</h2>
                     <p>
                     To match our minimalistic style of our app, we decided to choose Inter - a variable font family carefully crafted and designed for the computer screen. 

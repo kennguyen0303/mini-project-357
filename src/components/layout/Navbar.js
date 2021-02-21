@@ -21,14 +21,8 @@ const NavBar=()=> {
               <Nav className="">
                 <Nav.Link href="#problem">Problem</Nav.Link>
                 <Nav.Link href="#research">Research</Nav.Link>
-                <Nav.Link href="#research">Research</Nav.Link>
-                <Nav.Link href="#research">Research</Nav.Link>
-              </Nav>
-              <Nav>
-                <Nav.Link href="#deets">More deets</Nav.Link>
-                <Nav.Link eventKey={2} href="#memes">
-                  Dank memes
-                </Nav.Link>
+                <Nav.Link href="#analysis">Analysis</Nav.Link>
+                <Nav.Link href="#design">Design</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>

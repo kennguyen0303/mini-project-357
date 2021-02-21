@@ -174,7 +174,7 @@ const Research=()=> {
                 screen habit but also better well-being. 
                 </p>
               </div>
-              <h2>III. Analysis</h2>
+              <h2 id="analysis">III. Analysis</h2>
               <div  className="text-container">
                     <p>
                     Armed with the information provided by the research phase, 
@@ -182,7 +182,9 @@ const Research=()=> {
                   This phase will help us understand why the users would need to use a personal data marketplace.
                     </p>
                   <h2>User Personas</h2>
-                  <p>Based on the result from our survey, we made 3 archetypes of users for our applications </p> 
+                  <p>Based on the result from our survey, we made 3 archetypes of users: <strong>the nerd</strong> (young people with decent
+                    technology skills), <strong>the workaholic</strong> (middle age people who works mostly on their computer)
+                    and <strong>the tech-novice</strong> (the users with very limited tech skills ) </p> 
                   <Carousel>
                 <Carousel.Item>
                   <img
@@ -208,7 +210,7 @@ const Research=()=> {
                 </Carousel>
                 <br></br>
                   <h2>User's Journey</h2>
-                  <p>We chose Son Beach to create a user journey since he represents for 60% our participants </p> 
+                  <p>We chose <strong>Son Beach</strong> to create a user journey since he represents for 60% our participants </p> 
                   <img
                     className=""
                     src={user_flow}
