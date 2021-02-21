@@ -68,7 +68,7 @@ const Design=()=> {
                         <img src={Profile}/>
                 <h2>5. Demo</h2>
                 <p>The video below demonstrates the design of our application</p>
-                <video width="750" height="500" controls >
+                <video width="750" height="500" controls id="demo">
                     <source src={Prototype} type="video/mp4"/>
                     </video>
 

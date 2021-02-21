@@ -23,6 +23,8 @@ const NavBar=()=> {
                 <Nav.Link href="#research">Research</Nav.Link>
                 <Nav.Link href="#analysis">Analysis</Nav.Link>
                 <Nav.Link href="#design">Design</Nav.Link>
+                <Nav.Link href="#demo">Demo</Nav.Link>
+                <Nav.Link href="#conclusion">Conclusion</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>

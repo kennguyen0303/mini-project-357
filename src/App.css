@@ -172,9 +172,9 @@ table > th{
 
 .page_3 img{
   display: inline-block;
-  margin-left: 10%;
+  margin-left: 100px;
   margin-right: auto;
-  padding:2%;
+  padding:10px;
 }
 
 .page_3 h2{
