@@ -1,3 +1,5 @@
+Deployed page url https://kennguyen0303.github.io/mini-project-357/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
